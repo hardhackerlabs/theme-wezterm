@@ -3,11 +3,11 @@
 </p>
 
 <h1 align="center">
-  HardHacker Theme for Foobar
+  HardHacker Theme for wezterm
 </h1>
 
 ![screenshot](screenshot.png)
 
 ## Install
 
-* Install steps here
+* Edit **your** `wezterm.lua` file and insert the contents of the `wezterm.lua` file **in the repo**.
