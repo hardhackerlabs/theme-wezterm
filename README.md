@@ -10,4 +10,7 @@
 
 ## Install
 
-* Edit **your** `wezterm.lua` file and insert the contents of the `wezterm.lua` file **in the repo**.
+```shell
+git clone https://github.com/hardhackerlabs/theme-wezterm
+cp ./theme-wezterm/hardhacker.toml ~/.config/wezterm/colors/
+```
