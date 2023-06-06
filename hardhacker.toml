@@ -1,15 +1,65 @@
 [colors]
 ansi = [ "#282433", "#e965a5", "#b1f2a7", "#ebde76", "#b1baf4", "#e192ef", "#b3f4f3", "#eee9fc" ]
 brights = [ "#3f3951", "#e965a5", "#b1f2a7", "#ebde76", "#b1baf4", "#e192ef", "#b3f4f3", "#eee9fc" ]
+
 background = "#282433"
 foreground = "#eee9fc"
+
+compose_cursor = '#ebde76'
 cursor_bg = "#eee9fc"
 cursor_border = "#eee9fc"
 cursor_fg = "#eee9fc"
+
 selection_bg = "#3f3951"
 selection_fg = "#eee9fc"
 
+scrollbar_thumb = '#3f3951'
+split = '#938aad'
+
 [colors.indexed]
+
+[colors.tab_bar]
+background = "#282433"
+
+[colors.tab_bar.active_tab]
+bg_color = "#282433"
+fg_color = "#e965a5"
+intensity = "Normal"
+underline = "None"
+italic = false
+strikethrough = false
+
+[colors.tab_bar.inactive_tab]
+bg_color = "#282433"
+fg_color = "#938aad"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.inactive_tab_hover]
+bg_color = "#e192ef"
+fg_color = "#eee9fc"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab]
+bg_color = "#282433"
+fg_color = "#938aad"
+intensity = "Normal"
+italic = false
+strikethrough = false
+underline = "None"
+
+[colors.tab_bar.new_tab_hover]
+bg_color = "#e192ef"
+fg_color = "#eee9fc"
+intensity = "Normal"
+italic = true
+strikethrough = false
+underline = "None"
 
 [metadata]
 name = 'hardhacker'

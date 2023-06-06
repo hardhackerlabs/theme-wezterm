@@ -14,3 +14,11 @@
 git clone https://github.com/hardhackerlabs/theme-wezterm
 cp ./theme-wezterm/hardhacker.toml ~/.config/wezterm/colors/
 ```
+
+And add the following configs into your wezterm.lua file
+
+```
+color_scheme = "hardhacker",
+use_fancy_tab_bar = false,
+window_decorations = "RESIZE",
+```
