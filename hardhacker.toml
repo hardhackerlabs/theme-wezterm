@@ -10,7 +10,7 @@ cursor_bg = "#eee9fc"
 cursor_border = "#eee9fc"
 cursor_fg = "#eee9fc"
 
-selection_bg = "#3f3951"
+selection_bg = "#e965a5"
 selection_fg = "#eee9fc"
 
 scrollbar_thumb = '#3f3951'
